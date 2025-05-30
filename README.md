@@ -11,7 +11,9 @@ Instructions below work on Linux; you may need to adjust for your own OS.
 
 ### Using git
 Run:
-`git clone https://github.com/Doranwen/ffnpagedown.git`
+```
+git clone https://github.com/Doranwen/ffnpagedown.git
+```
 
 ### Downloading manually
 Go to to the top of this page and click the Code button, then choose Download Zip.
