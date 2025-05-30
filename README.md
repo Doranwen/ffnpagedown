@@ -1,8 +1,10 @@
 # Description
-This is a simple Python script that automates the process of using PageDown to autoload all pages of a fandom on [Fanfiction.net](https://www.fanfiction.net/).  The results can then be processed with a link grabbing extension to get a list of all story links on those pages.
+This is a simple Python script that automates the process of using End to autoload all pages of a fandom on [Fanfiction.net](https://www.fanfiction.net/).  The results can then be processed with a link grabbing extension to get a list of all story links on those pages.
 
 # Backstory / Personal Note
-Full confession: I do not generally consider myself a programmer since I have no time to learn and forget what I do learn due to lack of use.  However, a few years ago I used [pyautogui](https://pyautogui.readthedocs.io/en/latest/) to create a simple macro script for personal use.  It occurred to me that I could tweak that to make it automate hitting the PageDown button when loading all pages of a fandom on Fanfiction.net, so I fiddled with it and in short order had it working.
+Full confession: I do not generally consider myself a programmer since I have no time to learn and forget what I do learn due to lack of use.  However, a few years ago I used [pyautogui](https://pyautogui.readthedocs.io/en/latest/) to create a simple macro script for personal use.  It occurred to me that I could tweak that to make it automate hitting the End button when loading all pages of a fandom on Fanfiction.net, so I fiddled with it and in short order had it working.
+
+While one actually hits the End button rather than PageDown, I thought ffnpagedown sounded better than ffnend, hence the name.
 
 # Before using
 Instructions below work on Linux; you may need to adjust for your own OS.
@@ -40,9 +42,9 @@ source venv/bin/activate
 python3 ffnpagedown.py
 ```
 
-The script will ask you to input the number of pages for that fandom.  Once you do that and hit enter, it will minimize the terminal window and begin hitting Page Down for you.
+The script will ask you to input the number of pages for that fandom.  Once you do that and hit enter, it will minimize the terminal window and begin hitting End for you.
 
-When it has finished, check that all pages have loaded by pressing PageDown manually until you see the bottom of the page.
+When it has finished, check that all pages have loaded by pressing End manually until you see the bottom of the page.
 
 # (Optional) Extract links
 1) Click on the Link Gopher button on the Firefox toolbar.
