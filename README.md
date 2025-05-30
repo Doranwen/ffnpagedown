@@ -45,7 +45,7 @@ The script will ask you to input the number of pages for that fandom.  Once you 
 When it has finished, check that all pages have loaded by pressing PageDown manually until you see the bottom of the page.
 
 # (Optional) Extract links
-1) Click on the Link Gopher button.
+1) Click on the Link Gopher button on the Firefox toolbar.
 2) Choose "Extract Links by Filter".
 3) Type `/1/` in the box and click OK.
 4) Select the entire page (Ctrl + A).
