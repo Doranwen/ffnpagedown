@@ -16,7 +16,7 @@ git clone https://github.com/Doranwen/ffnpagedown.git
 ```
 
 ### Downloading manually
-Go to to the top of this page and click the Code button, then choose Download Zip.
+Go to to the top of this page and click the Code button, then choose Download Zip.  Unzip into a folder.
 
 ## Set up script environment
 Run each command one by one:
