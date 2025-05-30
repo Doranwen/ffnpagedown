@@ -9,6 +9,6 @@ pyautogui.click()
 pyautogui.moveRel(1,5)
 pyautogui.moveRel(-1,5)
 pyautogui.PAUSE = 5
-for _ in range(inp + 6):
-	pyautogui.press('pagedown')
+for _ in range(inp + 5):
+	pyautogui.press('end')
 	pyautogui.PAUSE = 2
