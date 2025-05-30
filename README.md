@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 To exit the script environment, run `deactivate`.
 
-## Prepare to run
+# Running the script
 1) Install an extension that allows you to auto-load each page of story results on Fanfiction.net. (As far as I know, only [Fanfiction Tools on Firefox](https://addons.mozilla.org/en-US/firefox/addon/fanfiction-tools/) does this.  If there's a Chrome extension with that feature, please create an Issue to ask me to add the link to it!)
 2) (Optional) Install [Link Gopher for Firefox](https://addons.mozilla.org/en-US/firefox/addon/link-gopher/).  This will enable you to grab all links when you are done.
 3) Activate Fanfiction Tools on the page of filters you want on Fanfiction.net.  Take note of how many total pages it has.
@@ -44,7 +44,7 @@ The script will ask you to input the number of pages for that fandom.  Once you 
 
 When it has finished, check that all pages have loaded by pressing PageDown manually until you see the bottom of the page.
 
-## (Optional) Extract links
+# (Optional) Extract links
 1) Click on the Link Gopher button.
 2) Choose "Extract Links by Filter".
 3) Type `/1/` in the box and click OK.
