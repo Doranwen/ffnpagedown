@@ -50,9 +50,9 @@ When it has finished, check that all pages have loaded by pressing PageDown manu
 3) Type `/1/` in the box and click OK.
 4) Select the entire page (Ctrl + A).
 5) Copy/paste it into a text file.
-6) Remove the top and bottom links (which appear on every page of links).
+6) Remove the top and bottom links (these are not story links) and any blank lines at top or bottom.
 
-What's left should be the full list of story links.  You can then save them and feed them to a fanfiction downloader program such as [fichub-cli](https://github.com/FicHub/fichub-cli) if desired.
+What's left should be the full list of story links.  You can then save the file and feed it to a fanfiction downloader program such as [fichub-cli](https://github.com/FicHub/fichub-cli) if desired.
 
 # Tips
 Before running the script, disable any popups that may steal window focus.
