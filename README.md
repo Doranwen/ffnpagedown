@@ -21,7 +21,7 @@ git clone https://github.com/Doranwen/ffnpagedown.git
 Go to to the top of this page and click the Code button, then choose Download Zip.  Unzip into a folder.
 
 ## Set up script environment
-Run each command one by one:
+From inside the folder with the script, run each command one by one:
 ```
 python3 -m venv venv
 source venv/bin/activate
