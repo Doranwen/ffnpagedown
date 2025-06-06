@@ -11,4 +11,4 @@ pyautogui.moveRel(-1,5)
 pyautogui.PAUSE = 5
 for _ in range(inp + 5):
 	pyautogui.press('end')
-	pyautogui.PAUSE = 3
+	pyautogui.PAUSE = 5
